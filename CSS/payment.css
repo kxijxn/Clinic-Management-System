@@ -1,0 +1,231 @@
+/* ===============
+Typography
+================== */
+body {
+    margin: 0 auto;
+    font-family: 'Sora', sans-serif;
+}
+.about-us h3 {
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #f8f8f8;
+}
+.about-us p {
+    text-align: justify;
+}
+.contact-us h3 {
+    margin-bottom: 0;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #f8f8f8;
+}
+.address i{
+    font-size: 1.3rem;
+    padding-top: 1.3em;
+}
+.phone-number i {
+    font-size: 1.3.rem;
+    padding-top: 1.2em;
+}
+.email i {
+    padding-top: 0.1em;
+}
+.follow-us h3 {
+    border-bottom: 2px solid #f8f8f8;
+    padding-bottom: 0.3em;
+    margin-bottom: 0;   
+}
+a#fbLink {
+    color: #1877F2;
+}
+a#instaLink {
+    color: #E4405F;
+}
+a#twitterLink {
+    color: #1DA1F2;
+}
+/* ==================
+Layout
+===================== */
+
+.container-bootstrap_control {
+    width: 100%;
+    margin: 0 auto;
+    max-height: 120px;
+    border-bottom: 25px solid navy;
+}
+.container-nav {
+    margin-left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #f8f8f8;
+}
+@media (max-width: 675px) {
+    .container-bootstrap_control {
+        max-height: none;
+    }
+    .container-nav {
+        flex-direction: column;
+    }
+    .header {
+        text-align: center;
+    }
+}
+
+/* Navigation */
+/* style="height: 100px;margin-left: 50px; margin-top: 7px; */
+header img {
+    width: 100%;
+    max-width: 170px;
+}
+.header-title {
+    margin: 1em;
+    display: flex;
+    justify-content:center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0.1em 0;
+}
+nav li {
+    margin-left: 0.2em;
+    text-align: center;
+}
+nav a {
+    font-size: .88rem;
+    text-decoration: none;
+    color: black;
+    padding: 1em 0.8em;
+}
+.menu,
+.currentPage {
+    border-right: 1px solid #BDC3C7;
+}
+#loginBtn {
+    font-size: .88rem;  
+    margin-left: 18rem;
+    margin-right: 0.1rem;
+    border: 1px solid #BDC3C7;
+    border-radius: 10px;
+    padding: 0.3rem;
+}
+nav a:hover,
+nav a:focus {
+    color: grey;
+}
+.currentPage a{
+    color: grey;
+}
+.currentPage a:hover {
+    color: grey;
+}
+@media (max-width: 675px) {
+    .header-title {
+        margin-bottom: 0;
+        text-align: center;
+    }
+    header img {
+        width: 50%;
+    }
+    nav ul {
+        padding: 0;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .menu,
+    .currentPage {
+        border-right: none;
+    }
+    nav li {
+        margin: .5em .25em;
+    }
+    #loginBtn {
+        margin-left: 0px;
+    }
+}
+/* Footer */
+.footer {
+    display: flex;
+    margin-top: 2.5em;
+    flex-direction: column;
+    padding: 0.5em;
+    background-color: #A1A6B4;
+}
+.footer-box {
+    display: flex;
+    flex-direction: row;
+}
+.follow-us {
+    display: flex;
+    flex-direction: column;
+}
+.follow-box {
+    display: flex;
+    justify-content: left;
+    margin: 0.5em;
+}
+@media (min-width: 675px) {
+    div.footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-us {
+        width: 30%;
+    }
+    .contact-us {
+        width: 37%;
+    }
+    .follow-us {
+        width: 30%;
+    }
+}
+.heading-wrap {
+    position: relative;
+}
+.heading-wrap::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    background-image: url('../Images/payment-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.booking-heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 10em;
+    align-items: center;
+}
+.credit-card-container{
+    height: 50px;
+}
+.credit-card-container img{
+    max-height: 100%;
+    object-fit: cover;
+}
+#visa-img {
+    position: relative;
+    width: 75%;
+    bottom: 5%;
+}
+.img-container {
+    width: 35%;
+    height: 3em;
+}
