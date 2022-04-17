@@ -1,0 +1,92 @@
+/* About Us */
+.seperator {
+    margin-bottom: 0;
+}
+.body-content {
+    display: flex;
+}
+.topic-heading {
+    width: 100%;
+    text-align: center;
+    background-image: url('../Images/about-us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 280px;
+}
+.topic-heading h1 {
+    margin-top: 100px;
+}
+.body-content2 h1{
+    text-align: center;
+    margin-bottom: 3px;
+}
+#line-1 {
+    border-top: 1px solid #ccc;
+    margin: 0 auto;
+    width: 80px;
+}
+.body-content2 {
+    width: 900px;
+    margin: 0 auto;
+}
+.body-content2 p {
+    text-align: justify;
+}
+.body-content3 {
+    display: flex;
+}
+.scope-container {
+    border-left: 2px solid #ccc;
+    padding-left: 30px;
+    margin-left: 100px;
+    width: 500px;
+}
+.container img{
+    width: 500px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 100px;
+}
+/* END */
+
+/* Triangle Img
+.container {
+    margin-left: 100px;
+    width: 232px; 
+    height: 170px; 
+    border-top: 1px solid #ccc; 
+    overflow: hidden; 
+    margin-top: 70px;
+}
+#triangle-img {
+    position: relative;
+    overflow: hidden;
+    transform: rotate(45deg) skew(10deg,10deg);
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    width: 200px;
+    height: 200px;
+    margin:-100px 0 0 16px;
+}
+#content-img {
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 5%;
+    left: 10%;
+    z-index: -1;
+    background-image: url(../images/doctor.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+    transform: skew(-10deg,-10deg) rotate(-45deg);
+}
+#content-img:hover {
+    background-size: 80%;
+}
+
+
+*/
